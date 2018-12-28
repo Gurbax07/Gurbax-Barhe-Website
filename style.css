@@ -1,0 +1,181 @@
+/* Formatting Name, Description, and Icons */
+body {
+    margin: 0px; 
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.centering {
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Prime';
+    color:white;
+    font-size: 100px;
+    margin: 10px auto;
+    transition: 1s;
+}
+
+.name {
+    display: flex;
+    margin: auto;
+    align-content: center;
+}
+
+.Logo {
+    margin: 0px 30px 30px 0px;
+    transition: .5s;
+}
+
+.Logo:hover {
+    transform: translateY(-10px);
+}
+
+.naam {
+    margin: auto;
+}
+
+.description {
+    font-family: 'Prime';
+    color: white;
+    text-align: center;
+    line-height: 20px;
+}
+
+.position {
+    font-size: 35px;
+    margin: 10px auto;
+}
+
+h2 {
+    font-size: 40px;
+    color: white;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto 300px;
+    background: none;
+}
+
+/* TOOLTIPS - do later */
+
+/* About Me */
+/* Linkedin */
+/* Github */
+/* Resume */
+/* Email */
+
+/* Background Particles */
+canvas {
+    display: block;
+}
+  
+#particles-js {
+    position: absolute;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+/* Dialouge Box Code */
+style
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+  
+body {
+    font-family: 'Calibri';
+}
+
+/* Removing the underscore */
+a:link,
+a:visited{
+    text-decoration: none;
+}
+
+/* Blurred Background */
+.modal {
+    background-color: rgba(0, 0, 0, 0.600);
+    width:100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+
+/* Blurred Background */
+.modal__content {
+    width: 75%;
+    height: 69%;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 36px;
+    border-radius: 16px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+
+/* Making the Dialouge Box Visible */
+#modal:target {
+    opacity: 1;
+    visibility: visible;
+}
+
+#modal:target .modal__content {
+    opacity: 1;
+    visibility: visible;
+}
+ 
+/* X */
+.modal__close   {
+    color: #363636;
+    text-underline-position: none;
+    font-size: 50px;
+    position: absolute;
+    top: 8px;
+    right: 25px;
+}
+
+.modal__heading {
+    color: black;
+    margin: auto;
+}
+
+.modal__paragraph{
+    line-height: 42px;
+    justify-content: center;
+}
+
+h3 {
+    font-size: 100px;
+    margin: auto;
+    text-align: center; 
+}
+
+.profile {
+    display: flex;
+    margin: auto;
+}
+
+.modal_paragraph_format {
+    font-size: 30px;
+    text-align: left;
+    margin: 20px auto;
+}

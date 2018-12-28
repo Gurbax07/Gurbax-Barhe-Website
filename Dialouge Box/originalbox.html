@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>Desi Developer</title>
+ <style>
+  *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+  }
+
+  body{
+   font-family: 'Calibri';
+  }
+
+  a:link,
+  a:visited{
+   text-decoration: none;
+  }
+
+  .modal{
+   background-color: rgba(0,0,0, .8);
+   width:100%;
+   height: 100vh;
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: 10;
+   opacity: 0;
+   visibility: hidden;
+   transition: all .5s;
+  }
+
+  .modal__content{
+   width: 75%;
+   height: 65%;
+   background-color: #fff;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   padding: 2em;
+   border-radius: 1em;
+   opacity: 0;
+   visibility: hidden;
+   transition: all .5s;
+  }
+
+  #modal:target{
+   opacity: 1;
+   visibility: visible;
+  }
+
+  #modal:target .modal__content{
+   opacity: 1;
+   visibility: visible;
+  }
+
+  .modal__close{
+   color: #363636;
+   font-size: 2em;
+   position: absolute;
+   top: .5em;
+   right: 1em;
+  }
+
+  .modal__heading{
+   color: black;
+   margin-bottom: 1em;
+  }
+
+  .modal__paragraph{
+   line-height: 1.5em;
+  }
+
+ </style>
+</head>
+<body>
+ <a href="#modal" class="modal-open"><img src="./PersonW.png" alt="Person White" style="height:50px; width:50px"></a>
+ 
+ <div class="modal" id="modal">
+    <div class="modal__content">
+      <a href="#" class="modal__close">&times;</a>
+      <h2>ABOUT ME</h2>
+      <p class="modal__paragraph">I’m a student at McMaster University in the class of 2022, pursuing a Bachelor of Engineering. I’m interested in specializing in computer and electrical engineering during the second year.
+        Seeking a position as an engineering co-op/intern/freelance worker or in a related field for the months of May to August in 2019.
+        </p>
+    </div>
+ </div>
+</body>
+</html>
