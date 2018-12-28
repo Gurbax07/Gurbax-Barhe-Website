@@ -16,10 +16,14 @@ body {
 h1 {
     text-align: center;
     font-family: 'Prime';
-    color:white;
+    color: rgb(204, 204, 204);
     font-size: 100px;
     margin: 10px auto;
-    transition: 1s;
+    transition: .5s;
+}
+
+h1:hover {
+    color: white;
 }
 
 .header-wrapper {
@@ -35,13 +39,13 @@ h1 {
 }
 
 .Logo {
-    margin-right: 30px;
+    margin-right: 35px;
     margin-bottom: 30px;
     transition: .5s;
 }
 
 .Logo:hover {
-    transform: translateY(-10px);
+    transform: translateY(-15px);
 }
 
 .name-h1 {
@@ -56,12 +60,12 @@ h1 {
 }
 
 .position {
-    font-size: 35px;
+    font-size: 36px;
     margin: 10px auto;
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 45px;
     color: white;
 }
 
@@ -69,7 +73,7 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: auto 300px;
+    margin: 30px 320px;
     background: none;
 }
 
@@ -185,9 +189,8 @@ h3 {
     margin: auto;
 }
 
-
 .modal_paragraph_format {
-    font-size: 170%;
+    font-size: 190%;
     text-align: left;
     margin: 20px auto;
 }
