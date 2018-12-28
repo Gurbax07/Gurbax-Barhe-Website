@@ -1,3 +1,6 @@
+@font-face { font-family: Prime; src: url('./Fonts/Prime\ Regular.otf'); } 
+@font-face { font-family: Calibri; src: url('./Fonts/Calibri.ttf'); } 
+
 /* Formatting Name, Description, and Icons */
 body {
     margin: 0px; 
@@ -114,6 +117,7 @@ a:visited{
     opacity: 0;
     visibility: hidden;
     transition: .5s;
+    margin: auto;
 }
 
 /* Blurred Background */
@@ -164,7 +168,7 @@ a:visited{
 }
 
 h3 {
-    font-size: 100px;
+    font-size: 500%;
     margin: auto;
     text-align: center; 
 }
@@ -175,7 +179,7 @@ h3 {
 }
 
 .modal_paragraph_format {
-    font-size: 30px;
+    font-size: 170%;
     text-align: left;
     margin: 20px auto;
 }
