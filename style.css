@@ -22,14 +22,21 @@ h1 {
     transition: 1s;
 }
 
-.name {
+.header-wrapper {
     display: flex;
     margin: auto;
     align-content: center;
+    flex-wrap: wrap;
+}
+
+.name-wrapper {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .Logo {
-    margin: 0px 30px 30px 0px;
+    margin-right: 30px;
+    margin-bottom: 30px;
     transition: .5s;
 }
 
@@ -37,8 +44,8 @@ h1 {
     transform: translateY(-10px);
 }
 
-.naam {
-    margin: auto;
+.name-h1 {
+    margin: auto 0px;
 }
 
 .description {
@@ -168,7 +175,7 @@ a:visited{
 }
 
 h3 {
-    font-size: 500%;
+    font-size: 550%;
     margin: auto;
     text-align: center; 
 }
